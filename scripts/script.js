@@ -2,7 +2,7 @@ function login() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if (username === "arias" && password === "proyectoits") {
+    if (username === "Arias" || username === "arias"  && password === "proyectoits") {
         window.location.href = '/html/tareas.html';
         var isLoggedIn = true;
     } else {
