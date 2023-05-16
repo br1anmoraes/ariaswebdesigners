@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas, como smartphones */
+}
+
+@media (max-width: 480px) {
+    /* Estilos para pantallas aún más pequeñas, como dispositivos móviles en modo retrato */
+}
+
+
+
 @font-face {
     font-family: "Dream MMA";
     src: url(/fonts/Dream\ MMA.ttf) format("truetype");
@@ -15,48 +25,34 @@ a {
 }
 
 body {
-    background-image: url(/img/Circuit\ Board.svg);
-    background-size: cover;
+    background-image: url(/img/Hexagon.svg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 h1 {
     font-family: 'Dream MMA';
     color: #1E2327;
+    font-size: 3em;
 }
 
 h2 {
     font-family: 'Ocean Wave';
-    font-size: 40px;
+    font-size: 3em;
     margin-top: -30px;
     color: #00819B;
+    margin-top: -1em;
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f4fefd;
-    position: fixed;
-    height: 98%;
-    overflow: auto;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-
-}
-
-.logotipo {
-    margin-top: 50%;
-}
 
 .login-box {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    padding: 40px;
+    width: 25em;
+    padding: 25px;
     transform: translate(-50%, -50%);
     background: #f4fefd;
     box-sizing: border-box;
@@ -143,7 +139,7 @@ ul {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #03f40f);
+    background: linear-gradient(90deg, transparent, #005c7e);
     animation: btn-anim1 2s linear infinite;
 }
 
@@ -152,6 +148,5 @@ ul {
     font-size: large;
 }
 
-.togglePasswordVisibility {
-    margin: 0 auto;
-}
+
+
