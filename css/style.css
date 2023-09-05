@@ -17,6 +17,10 @@
 
     }
 
+    .nav-menu a {
+        font-size: 15px;
+    }
+
 
 }
 
@@ -31,14 +35,9 @@
     }
 
     .nav-menu a {
-        display: block;
-        padding: 15px 20px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Raleway', sans-serif;
-        position: relative;
-    
+        font-size: 18px;
     }
+
 }
 
 @media (min-width: 1025px) {
@@ -50,6 +49,11 @@
         font-size: 22px;
         margin: -10px;
     }
+
+    .nav-menu a {
+        font-size: 20px;
+    }
+
 }
 
 .nav-menu {
@@ -98,7 +102,6 @@
 .nav-menu a:hover::after {
     transform: scaleX(1);
 }
-
 
 
 #video-fondo {
