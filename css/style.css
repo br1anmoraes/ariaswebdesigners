@@ -99,11 +99,7 @@
     transform: scaleX(1);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+
 
 #video-fondo {
     position: fixed;
