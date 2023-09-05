@@ -3,46 +3,44 @@
     src: url('/resources/fonts/Largest_Genome_Font.otf') format('truetype');
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
 @media (max-width: 768px) {
     .contenido h1 {
-        font-family: 'Largest Genome Font';
-        font-size: 18pxc;
+        font-size: 24px;
     }
+
     .contenido h2 {
-        font-family: 'Bad Script', cursive;
-        font-size: 12;
-        margin: -1rem;
+        font-size: 18px;
+        margin: -10px;
+
     }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .contenido h1 {
-        font-family: 'Largest Genome Font';
-        font-size: 24px;
+        font-size: 30px;
     }
-    
+
     .contenido h2 {
-        font-family: 'Bad Script', cursive;
-        font-size: 18;
-        margin: -1rem;
+        font-size: 20px;
+        margin: -10px;
+
     }
 }
 
 @media (min-width: 1025px) {
-.contenido h1 {
-    font-family: 'Largest Genome Font';
-    font-size: 36px;
-}
+    .contenido h1 {
+        font-size: 36px;
+    }
 
-.contenido h2 {
-    font-family: 'Bad Script', cursive;
-    font-size: 24px;
-    margin: -1rem;
-}
+    .contenido h2 {
+        font-size: 22px;
+        margin: -10px;
+    }
 }
 
 .nav-menu {
@@ -69,7 +67,7 @@
     padding: 15px 20px;
     text-decoration: none;
     color: white;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Raleway', sans-serif;
     position: relative;
 
 }
@@ -118,28 +116,12 @@ body {
     justify-content: center;
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contenido h1 {
     font-family: 'Largest Genome Font';
-    font-size: 36px;
 }
 
 .contenido h2 {
-    font-family: 'Bad Script', cursive;
-    font-size: 24px;
-    margin: -1rem;
-}
-
-.contenido p {
-    font-size: 18px;
-}
-
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 64px;
-    height: 64px;
+    font-family: 'Raleway', sans-serif;
 }
