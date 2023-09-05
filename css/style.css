@@ -28,7 +28,16 @@
     .contenido h2 {
         font-size: 20px;
         margin: -10px;
+    }
 
+    .nav-menu a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+    
     }
 }
 
@@ -69,6 +78,7 @@
     color: white;
     font-family: 'Raleway', sans-serif;
     position: relative;
+    text-align: center;
 
 }
 
