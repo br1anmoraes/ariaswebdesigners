@@ -60,14 +60,16 @@
 
 }
 
+body {
+    background-color: black;
+}
+
 .nav-menu {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .nav-menu ul {
-    height: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -129,9 +131,10 @@
     justify-content: center;
     color: white;
     text-align: center;
+    mix-blend-mode: overlay;
 }
 
-.contenido h1 {
+.contenido .arias {
     font-family: 'Largest Genome Font';
 }
 
@@ -142,11 +145,12 @@
 
 
 
+
 .letter {
     transition: text-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .letter:hover {
-    text-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 20px #ffffff;
     transform: scale(1.1);
 }
