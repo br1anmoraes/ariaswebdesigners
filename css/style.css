@@ -67,9 +67,11 @@ body {
 .nav-menu {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .nav-menu ul {
+    height: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -131,11 +133,14 @@ body {
     justify-content: center;
     color: white;
     text-align: center;
-    mix-blend-mode: overlay;
 }
 
-.contenido .arias {
+.contenido h1 {
     font-family: 'Largest Genome Font';
+}
+
+.contenido .servicios {
+    font-family: 'Phudu Font';
 }
 
 .contenido h2 {
