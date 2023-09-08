@@ -42,14 +42,6 @@
         font-size: 18px;
     }
 
-    .contenido .titulo {
-        font-size: 36px;
-    }
-
-    p {
-        font-size: 24px;
-    }
-
 }
 
 @media (min-width: 1025px) {
@@ -66,21 +58,17 @@
         font-size: 20px;
     }
 
-    .contenido .titulo {
-        font-size: 48px;
-    }
+}
 
-    p {
-        font-size: 24px;
-    }
-
-
+body {
+    background-color: black;
 }
 
 .nav-menu {
     display: flex;
     justify-content: center;
     width: 100%;
+    z-index: 3;
 }
 
 .nav-menu ul {
@@ -104,7 +92,6 @@
     font-family: 'Phudu Font';
     position: relative;
     text-align: center;
-
 }
 
 .nav-menu a::after {
@@ -125,43 +112,45 @@
 }
 
 
-#video-fondo {
+.contenido {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
 }
 
-.contenido {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.contenido .arias {
+    font-family: 'Largest Genome Font';
     color: white;
-    text-align: center;
-    z-index: -1;
 }
 
-
-.contenido h1 {
-    font-family: 'Largest Genome Font';
+.contenido h2 {
+    font-family: 'Phudu Font';
+    color: white;
 }
 
 .contenido .titulo {
     font-family: 'Phudu Font';
+    color: white;
 }
 
 
-.contenido h2 {
+p {
     font-family: 'Phudu Font';
+    color: white;
 }
-
 
 .letter {
     transition: text-shadow 0.3s ease, transform 0.3s ease;
@@ -173,9 +162,14 @@
 }
 
 .logo {
-    transition: transform 0.3s ease, transform 0.3s ease;
+    transition: transform 0.3s;
 }
 
 .logo:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
+
+}
+
+.map {
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
