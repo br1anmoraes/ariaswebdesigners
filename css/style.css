@@ -69,7 +69,8 @@
 
 body {
     background-color: black;
-    border: 1px solid red;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .nav-menu {
@@ -128,6 +129,7 @@ body {
     z-index: 1;
     text-align: center;
     padding-top: 1rem;
+  
 }
 
 .info {
