@@ -8,6 +8,13 @@
     src: url('/resources/fonts/Phudu_Font.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url('/resources/fonts/Merriweather_Font.ttf') format('truetype');
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -121,6 +128,17 @@ body {
     text-align: center;
 }
 
+.info {
+    text-align: center;
+}
+
+.contenido-nosotros {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 1;
+    text-align: center;
+}
+
 .video {
     position: fixed;
     top: 0;
@@ -129,6 +147,8 @@ body {
     min-height: 100%;
     z-index: -1;
 }
+
+
 
 
 .contenido .arias {
@@ -148,7 +168,7 @@ body {
 
 
 p {
-    font-family: 'Phudu Font';
+    font-family: 'Merriweather';
     color: white;
 }
 
